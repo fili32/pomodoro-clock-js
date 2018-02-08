@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock  js  FreeCodeCamp</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/open-iconic/1.1.0/font/css/open-iconic-bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/open-iconic/1.1.0/font/css/open-iconic.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<div class="container pomo">
+ <h1 class="text-center">Pomodoro Clock</h1>
+  <table class="table text-center timers-small">
+    <thead class="titles">
+    <tr>
+      <th scope="col">Session Time</th>
+      <th scope="col">Break Time</th>
+    </tr>
+  </thead>
+        <thead>
+    <tr >
+      <th class="timers-small-session" id=num scope="col">
+        <button class="oi" data-glyph="plus" id="plus-session"></button>
+           <span class="session" id="session">25</span>
+        <button class="oi" data-glyph="minus" id="minus-session"></button>
+      </th>
+      <th class="timers-small-break" id=num scope="col">  
+        <button class="oi" data-glyph="plus" id="plus-break"></button>
+          <span class="break" id="break">5</span>
+        <button class="oi" data-glyph="minus" id="minus-break"></button>
+        </th>
+    </tr>
+  </thead>
+    </table>
+  <div class="tomato" id="tomato"> <img class="tomato-img" id="tomato-img" src="https://drive.google.com/uc?id=1ABGBQjEre-8f05ywH8tcvbZtMiYcMdSq"></div>
+ 
+ <div class= "timer-big center-block">
+      <div class="clock" id="clock"></div>
+    </div>
+  </div>
+
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="stop" autocomplete="off" checked> Stop
+  </label>
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="start" autocomplete="off"> Start
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="reset" autocomplete="off"> Reset
+  </label>
+</div>
+
+<div class="footer">
+  <footer >Created by Theoni Gigi 2017</footer>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
